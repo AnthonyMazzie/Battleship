@@ -1,7 +1,7 @@
 # Battleship :ship: :anchor: :dart:
 
 [![Workflow](https://github.com/AnthonyMazzie/Battleship/actions/workflows/battleshipPipeline.yml/badge.svg)](https://github.com/AnthonyMazzie/Battleship/actions/workflows/battleshipPipeline.yml)
-[![codecov](https://codecov.io/gh/AnthonyMazzie/Battleship/graph/badge.svg?token=EN6tdg0aHQ)](https://codecov.io/gh/AnthonyMazzie/Battleship)
+[![codecov](https://codecov.io/gh/AnthonyMazzie/Battleship/graph/badge.svg?token=rDwCqn7cLr)](https://codecov.io/gh/AnthonyMazzie/Battleship)
 
 ## Overview
 
