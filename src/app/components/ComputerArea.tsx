@@ -17,7 +17,6 @@ const ComputerArea: React.FC<ComputerAreaProps> = ({
   return (
     <div
       style={{
-        marginRight: '15px',
         textAlign: 'center',
         color: 'white',
         borderRadius: '15px',

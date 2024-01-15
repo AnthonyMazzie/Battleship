@@ -29,7 +29,6 @@ const PlayerArea: React.FC<PlayerAreaProps> = ({
   return (
     <div
       style={{
-        marginRight: '15px',
         textAlign: 'center',
         color: 'white',
         borderRadius: '15px',

@@ -105,15 +105,15 @@ const Game: React.FC = () => {
 
   const initializeGame = () => {
     setGameBoardOffset(getGameBoardOffset());
-    placeComputerShips();
     setGameStage(GameStage.ShipSelection);
     setReady(true);
+    placeComputerShips();
     setAreShipsVisible(true);
   };
 
   const startGame = () => {
     setGameStage(GameStage.GameStarted);
-    placeComputerShips();
+    // placeComputerShips();
     setGameStarted(true);
   };
 
@@ -248,8 +248,6 @@ const Game: React.FC = () => {
     return <div>Loading...</div>;
   }
 
-  const lastSunkShip = sunkShips[sunkShips.length - 1];
-
   return (
     <>
       {lastNotifiedSunkShip && (
@@ -266,8 +264,9 @@ const Game: React.FC = () => {
           display: 'flex',
           justifyContent: 'center',
           backgroundColor: 'black',
-          padding: '25px',
+          padding: '10px',
           borderRadius: '15px',
+          gap: '20px',
         }}
       >
         <PlayerArea
@@ -293,7 +292,7 @@ const Game: React.FC = () => {
         style={{
           display: 'flex',
           justifyContent: 'center',
-          gap: '25px',
+          gap: '20px',
         }}
       >
         {renderLegend()}
